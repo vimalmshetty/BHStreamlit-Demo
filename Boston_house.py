@@ -42,8 +42,7 @@ st.title ("Boston Housing")
 ## Plots
 
 #Load Boston Dataset
-fname = "data//boston.csv"
-df = pd.read_csv(fname)
+df = pd.read_csv("data//boston.csv")
 
 st.image("data//boston_house.png")
 
