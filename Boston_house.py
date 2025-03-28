@@ -9,7 +9,6 @@ import seaborn as sns
 
 
 st.title ("Boston Housing")
-st.subheader("Predicting the price of a house in Boston")
 
 #Load Boston Dataset
 fname = "data//boston.csv"
@@ -18,9 +17,7 @@ df = pd.read_csv(fname)
 st.image("data//boston_house.png")
 
 #nav = st.sidebar.radio("Navigation",["Input", "Output"])
-
-
-st.header("Prediction")
+st.subheader("Predicting the price of a house in Boston")
 
     #Create Independent and Dependent Variables
 X = df[['CRIM','CHAS','NOX', 'RM','AGE', 'DIS']]
