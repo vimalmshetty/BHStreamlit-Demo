@@ -8,10 +8,8 @@ from plotly import express  as px
 import seaborn as sns
 
 
-
 st.title ("Boston Housing")
 st.subheader("Predicting the price of a house in Boston")
-st.text("This is a simple Streamlit app to predict the price of a house in Boston.")
 
 #Load Boston Dataset
 fname = "data//boston.csv"
